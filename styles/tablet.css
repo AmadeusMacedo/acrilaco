@@ -1,0 +1,1195 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  
+
+    
+
+    body {
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: #F3F3F3;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        flex-direction: column;
+
+        background-image: linear-gradient(to bottom, #313030, #636262, #F6C12F);
+
+        background-attachment: fixed;
+
+        
+
+    
+
+    }
+
+
+
+    .linha {
+
+        background-image: url('../images/fachadas/linha.html');
+
+        background-size: contain;
+
+        background-repeat: no-repeat;
+
+        background-position: bottom;
+
+        width: 100%;
+
+        height: 4px;
+
+        
+
+    }
+
+
+
+    main {
+
+        display: flex; 
+
+        flex-direction: column;
+
+        align-items: center;
+
+        width: 100%;
+
+        padding: 5px 0px;
+
+        
+
+        border-radius: 0px 0px 0px 0px;
+
+        gap: 0;
+
+        background-color: #F3F3F3;
+
+    }
+
+
+
+    section#banner {
+        display: none;
+        width: 97%;
+
+    }
+
+
+
+    section#banner > img {
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    section#sobre{
+
+    
+
+        display: flex;
+        
+        flex-direction: row;
+        padding: 80px 0px;
+        
+        width: 100%;
+        background-image: url('../images/fundo.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 20% 60%;
+        border-radius: 0px 0px 0px 0px;
+        align-items: center;
+        justify-content: center;
+       
+        }
+    
+       
+    
+    
+      
+    
+        section#sobre > div#container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        align-items: center;
+        text-align: center;
+            gap: 50px;
+           width: 96%;
+        
+            
+        
+            }
+    
+            section#sobre > div#container > div#video > iframe {
+                
+                box-shadow: 0px 0px 1px #f5c02f;
+                border-radius: 5px;
+            }
+    
+            section#sobre > div#container > div#video{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 8px;
+                height: 350px;
+                
+                border-radius: 5px;
+            }
+    
+            section#sobre > div#container > div#video h1{
+                color: #f5c02f;
+               
+            }
+    
+    
+            section#sobre > div#container > div#texto {
+                
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        height: 350px;
+                
+            
+                }
+    
+            section#sobre > div#container > div#texto > p {
+                font-size: 18px;
+        text-align: left;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        line-height: 1.1em;
+            
+                
+            
+                }
+    
+                
+            section#sobre > div#container > div#texto > h2 {
+            
+        color: #f5c02f;
+        letter-spacing: 0.5px;
+       
+                
+            
+                }
+    
+
+
+                section#missao{
+
+    
+
+                    display: flex;
+                    
+                    flex-direction: row;
+                    padding: 60px 0px;
+                    
+                    width: 100%;
+                    background-image: url('../images/missaobackground.webp');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: 20% 60%;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    }
+                
+                   
+                
+                
+                  
+                
+                    section#missao > div#container{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                        gap: 50px;
+                       width: 96%;
+                    
+                        
+                    
+                        }
+    
+                        section#missao > div#container > div#esquerda > img{
+                           width: 100%;
+                        
+                            
+                        
+                            }
+    
+                            section#missao > div#container > div#direita {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                text-align: left;
+                                font-size: 20px;
+                            
+                                }
+    
+    
+    
+                            section#missao > div#container > div#direita p{
+                                text-align: left
+                                
+                            
+                                }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                section#duvidas-sobre-fachadas-em-acm{
+    
+        
+    
+                                    display: flex;
+                                    
+                                    flex-direction: column;
+                                    padding: 60px 0px;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    
+                                    background-image: url('../images/fundo.webp');
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-position: 20% 60%;
+                                    align-items: center;
+                                   
+                                    
+                                    }
+    
+                                    section#duvidas-sobre-fachadas-em-acm h1{
+    
+                                        height: 60px;
+                                        text-align: center;
+                                        color: #f5c02f;
+                                       
+                                        
+                                        }
+    
+                                        section#duvidas-sobre-fachadas-em-acm p{
+                                            font-size: 17px;
+                                            height: 70px;
+                                            text-align: left;
+                                            color: #fff;
+                                           
+                                            
+                                            }
+                                
+                                   
+                                
+                                
+                                  
+                                
+                                    section#duvidas-sobre-fachadas-em-acm > div#container{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
+                                        gap: 30px;
+                                       width: 96%;
+                                    
+                                        
+                                    
+                                        }
+    
+                                         
+                                    section#duvidas-sobre-fachadas-em-acm > div#container > div#divisoria{
+                                        width: 1px;
+                                        height: 900px;
+                                        background-color: #f5c02f;;
+                                        
+                                      
+                                    
+                                        
+                                    
+                                        }
+    
+    
+                                        section#duvidas-sobre-fachadas-em-acm > div#container > div#duvidas-esquerda{
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                         align-items: center;
+                                            text-align: center;
+                                            gap: 20px;
+                                           width: 500px;
+                                        
+                                            
+                                        
+                                            }
+    
+                                            section#duvidas-sobre-fachadas-em-acm > div#container > div#duvidas-direita{
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                            align-items: center;
+                                            text-align: center;
+                                            gap: 20px;
+                                               width: 500px;
+                                            
+                                                
+                                            
+                                                }
+    
+    
+    
+    
+    
+    
+                                                section#vantagens{
+
+    
+
+                                                    display: flex;
+                                                    
+                                                    flex-direction: row;
+                                                    padding: 80px 0px;
+                                                    
+                                                    width: 100%;
+                                                    background-image: url('../images/missaobackground.webp');
+                                                    background-size: cover;
+                                                    background-repeat: no-repeat;
+                                                    background-position: 20% 60%;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                   
+                                                    }
+                                                
+                                                   
+                                                
+                                                
+                                                  
+                                                
+                                                    section#vantagens > div#container{
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        justify-content: center;
+                                                    align-items: center;
+                                                    text-align: center;
+                                                        gap: 50px;
+                                                       width: 96%;
+                                                    
+                                                        
+                                                    
+                                                        }
+                                                
+                                                        section#vantagens > div#container > div#meio > img{
+                                                            
+                                                           width: 400px;
+                                                        
+                                                            
+                                                        
+                                                            }
+                                                
+                                                            section#vantagens > div#container ul{
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                gap: 15px;
+                                                               list-style-type: none;
+                                                            
+                                                                
+                                                            
+                                                                }
+                                                
+                                                                section#vantagens > div#container li{
+                                                                    text-align: left;
+                                                                    font-size: 20px;
+                                                                
+                                                                    
+                                                                
+                                                                    }
+
+
+
+                                                                    section#depoimentos{
+
+    
+
+                                                                        display: flex;
+                                                                        
+                                                                        text-align: center;
+                                                                        background-image: url('../images/fundo.webp');
+                                                                        width: 100%;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        flex-direction: column;
+                                                                        flex-wrap: wrap;
+                                                                        text-align: center;
+                                                                        padding: 60px 0px;
+                                                                        gap: 1rem;
+                                                                        color: #fff;
+                                                                        position: relative;
+                                                                    
+                                                                    
+                                                                        
+                                                                    
+                                                                        }
+                                                                    
+                                                                       
+                                                                    
+                                                                    
+                                                                      
+                                                                    
+                                                                        section#depoimentos > div#container{
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            justify-content: center;
+                                                                        align-items: center;
+                                                                        text-align: center;
+                                                                            gap: 20px;
+                                                                           width: 96%;
+                                                                        
+                                                                            
+                                                                        
+                                                                            }
+                                                                            
+                                                                            section#depoimentos > div#container h1 {
+                                                                                color: #f5c02f;
+                                                                                font-weight: normal;
+                                                                                font-size: 31px;
+                                                                                
+                                                                            
+                                                                                }
+                                                                    
+                                                                                section#depoimentos > div#container h2 {
+                                                                                    color: #fff;
+                                                                                   text-align: left;
+                                                                                    font-weight: lighter;
+                                                                                    font-size: 23px;
+                                                                                    width: 96%;
+                                                                                    
+                                                                                
+                                                                                    
+                                                                                
+                                                                                    }
+                                                                    
+                                                                            section#depoimentos > div#container > div#cima{
+                                                                                display: flex;
+                                                                                gap: 5px;
+                                                                                flex-direction: row;
+                                                                               
+                                                                            
+                                                                                
+                                                                            
+                                                                                }
+                                                                    
+                                                                                section#depoimentos > div#container > div#baixo{
+                                                                                    display: flex;
+                                                                                    gap: 5px;
+                                                                                    flex-direction: row;
+                                                                                   
+                                                                                
+                                                                                    
+                                                                                
+                                                                                    }
+                                                                    
+                                                                            section#depoimentos > div#container iframe{
+                                                                               
+                                                                               width: 100%;
+                                                                               
+                                                                            border-radius: 5px;
+                                                                                
+                                                                            
+                                                                                }
+                                                                          
+                                                                      
+                                                                      
+                                                                    
+    
+
+    section#bemvindo{
+
+    
+
+        display: flex;
+        
+        text-align: center;
+        background-color: #636262;
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0px;
+        gap: 1rem;
+        color: #fff;
+        position: relative;
+    
+    
+        
+    
+        }
+    
+       
+    
+    
+      
+    
+        section#bemvindo > div#container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        text-align: center;
+            gap: 20px;
+           width: 99%;
+        
+            
+        
+            }
+    
+        section#bemvindo > div#container > h1{
+    
+        
+            font-size: 25px;
+            font-weight: normal;
+            color: #fff;
+        
+        
+            
+        
+            }
+        
+    
+        
+    
+    
+    
+    section#bemvindo > div#container > div#bemvindotexto {
+    
+    text-align: center;
+    color: #fff;
+    
+    }
+    
+    section#bemvindo > div#container > div#bemvindotexto > p{
+        font-size: 21px;
+        text-align: center;
+        color: #fff;
+        
+        }
+    
+    
+    
+    section#bemvindo > div#container > div#bemvindotexto > ul  {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        gap: 1rem;
+        height: 200px;
+        flex-wrap: wrap;
+        list-style-position: inside;
+        width: 90%;
+        font-size: 19px;
+    
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #F6C12F;
+        
+    }
+    
+    
+    section#bemvindo > div#container > div#bemvindotexto > ul > li  {
+        text-align: center;
+       display: flex;
+       justify-content: center;
+        color: #F6C12F;
+        
+    }
+
+
+    
+
+
+    section.galeria {
+        background-image: url('../images/missaobackground.webp');
+        display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-direction: column;
+      align-items: center;
+        width: 100%;
+      padding: 60px 0px;
+      position: relative;
+      
+      
+      
+      
+      }
+    
+      
+      
+    section.galeria > div#container {
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+        position: relative;
+      
+        width:  98%;
+    
+      
+      
+      
+      
+      }
+    
+    
+      section.galeria > div#container img {
+    
+      
+      
+        width:  350px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.404);
+      
+      
+      
+      
+      }
+    
+      section.galeria > h1 {
+    
+        text-align: left;
+        font-size: 31px;
+      
+      
+      
+      
+      }
+    
+      section.galeria > hr {
+    
+       width: 500px;
+       background-color: #000;
+      
+      
+      
+      
+      }
+      
+    
+
+
+    section#contato {
+
+        display: flex;
+    
+        flex-direction: row;
+    flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+        padding: 30px 0px;
+        width: 100%;
+       background-color: #116A16;
+    border-radius: 0px 0px 0px 0px;
+    
+    }
+    
+    section#contato > div#container {
+        display: flex;
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 25px;
+        
+        width: 100%;
+       background-color: #116A16;
+    
+    }
+    
+    
+    
+    section#contato > div#container >  div#formulario {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+      gap: 10px;
+    
+        text-align: center;
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#formulario > h1 {
+        font-weight: normal;
+       color: #fff;
+    
+        
+    
+    }
+    
+    
+    
+    section#contato > div#container > div#formulario > form {
+    
+    
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: center;
+    
+        gap: 2px;
+        
+    
+    }
+    
+    
+    
+    section#contato > div#container >  div#formulario > form > label {
+    
+        display: inline-block;
+    
+      font-size: 15px;
+    
+        
+    
+          
+    
+      }
+    
+    
+    
+      section#contato > div#container > div#formulario > form > input#referencia2 {
+    background-color: #fff;
+    padding: 10px;
+        height: 40px;
+    
+         
+    
+          
+    
+      }
+    
+    
+    
+    section#contato > div#container >  div#formulario > form > input {
+    
+       
+    
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 0px solid black;
+    
+         
+    
+         
+    
+          
+    
+      }
+    
+    
+    
+      section#contato > div#container >  div#formulario > form > textarea {
+    
+       padding-top: 2px;
+        padding: 10px;
+        width: 100%;
+    
+        height: 73px;
+    
+         border: 1px solid black;
+    
+         
+    
+      }
+    
+    
+    
+      section#contato > div#container >  div#formulario > form > textarea {
+    
+       
+    
+        width: 100%;
+        height: 73px;
+        border: 0px;
+        border-radius: 5px;
+        
+    
+          
+    
+      }
+    
+    
+    
+      section#contato > div#container >  div#formulario > form > input[type=submit] {
+    
+       background-color: #313030;
+    
+       height: 40px;
+    
+       color: white;
+    
+        width: 100%;
+    
+        
+    
+         
+    
+          
+    
+      }
+    
+    
+    
+      section#contato > div#container >  div#naosepreocupe {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+        
+        justify-content: center;
+        list-style-position: inside;
+        
+    
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#naosepreocupe p{
+    
+     color: #fff;
+        
+    
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#naosepreocupe li{
+    
+        color: rgba(255, 255, 255, 0.733);
+           
+       
+           
+       
+           
+       
+       }
+    
+    
+    
+    section#contato > div#container >  div#naosepreocupe img {
+    
+        width: 50px;
+        
+        
+    
+        
+    
+        
+    
+    }
+    
+    
+    
+    section#contato > div#container >  div#contatoinfo {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+        height: 322px;
+        
+        gap: 12px;
+        text-align: center;
+    
+        font-size: 15px;
+        text-decoration: none;
+    
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#contatoinfo  h1{
+    
+        font-weight: normal;
+        color: #fff;
+     
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#contatoinfo  strong{
+    
+        font-weight: normal;
+        color: #6EEB83;
+     
+        
+    
+        
+    
+    }
+    
+    
+    section#contato > div#container >  div#contatoinfo > h1 > svg{
+    
+       
+        filter: brightness(0) saturate(100%) invert(72%) sepia(80%) saturate(308%) hue-rotate(72deg) brightness(99%) contrast(90%);
+     
+        
+    
+        
+    
+    }
+    
+    
+    section#contato > div#container >  div#contatoinfo  a{
+    
+    
+        font-style: normal;
+        text-decoration: none;
+    color: #EAF5E0;
+    font-weight: normal;
+    font-size: 17px;
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#contatoinfo  img{
+    
+    
+        width: 70px;
+        
+    
+        
+    
+    }
+    
+    section#contato > div#container >  div#contatoinfo  svg{
+    
+    
+        filter: brightness(0) saturate(100%) invert(6%) sepia(18%) saturate(4%) hue-rotate(318deg) brightness(96%) contrast(86%);
+    
+        
+    
+    }
+
+
+    footer {
+
+        display: flex;
+    
+        flex-direction: column;
+    
+        
+    
+        padding: 60px 0px;
+    
+        justify-content: space-evenly;
+    
+        align-items: center;
+    
+        text-align: center;
+    
+        color: #fff;
+        background-image: linear-gradient(to bottom, #313030, #636262);
+        width: 100%;
+    
+    }
+    
+    
+    footer > div#container{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+      
+    
+        justify-content: space-between;
+    
+        align-items: center;
+    
+        text-align: center;
+        gap: 20px;
+        color: #fff;
+      
+        width: 100%;
+    
+    }
+    
+    footer > div#container > div#row{
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+      
+    
+        justify-content: space-between;
+    
+        align-items: center;
+    
+        text-align: left;
+        gap: 20px;
+        color: #fff;
+       
+        width: 96%;
+    
+    }
+    
+    footer > div#container > div.copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    
+    }
+    
+    footer > div#container > div#row p{
+    
+       
+        color: #fff;
+      
+    
+    }
+    
+    footer > div#container > div#row ul li{
+    
+       
+        list-style-type: none;
+    
+    }
+    
+    footer > div#container > div#row h4{
+    
+       font-size: 25px;
+        color: #f5c02f;
+      
+    
+    }
+    
+    .altura{
+    
+       height: 100px;
+        
+    }
+    
+    footer > div#container > div#row > div#sobre{
+    
+       
+        width: 500px;
+    
+    }
+    
+    footer > div#container > div#row ul li p{
+    
+        
+        color: #fff;
+        
+    
+    }
+    
+    
+    
+    footer img {
+    
+        display: flex;
+        padding-bottom: 5px;
+        padding-top: 2x;
+        width: 80px;
+    
+        filter: brightness(0) saturate(100%) invert(99%) sepia(3%) saturate(101%) hue-rotate(7deg) brightness(117%) contrast(100%);
+    
+        
+    
+    }
+    
+    footer > div#container > p {
+        font-size: 15px;
+        color: #fff;
+    }
+    
+    small {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    
+    footer svg{
+        filter: brightness(0) saturate(100%) invert(100%) sepia(65%) saturate(24%) hue-rotate(315deg) brightness(113%) contrast(92%);
+        width: 14px;
+        height: 14px;
+        
+    }
+    
+    footer a{
+        color: #fff;
+        text-decoration: none;
+        font-style: normal;
+        
+    }
+    
+    
+    
+    footer div#enderecos{
+       display: flex;
+       flex-direction: row;
+       gap: 15px;
+       justify-content: center;
+       align-items: center;
+    }
+}
